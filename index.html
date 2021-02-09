@@ -5,12 +5,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="css/style.css">
-    <title>Flovers</title>
+    <title>Flowers</title>
 </head>
 
 <body>
+    <header class="header">
+        <div class="cotainer">
+            <div class="row ">
+                <div class="col-md-3">
+                    <a href="/">
+                        <img src="img/лого@1X.png" alt="Flowers" class="header-logo"></a>
+                </div>
+                <!-- /.col-md-3 -->
+                <div class="col-md-6">
+                    <span class="header-description">Интернет-магазин<br> 
+                        цветов с доставкой<br> 
+                        по всей <span class="text-color-red">России</span></span>
+                </div>
+                <!-- /.col-md-6 -->
+                <div class="col-md-3">
+                    <a href="tel: +7 (800) 654-87-45" class="header-phone">8 (800) 654-87-45</a>
+                    <span class="header-info">Звонок по России бесплатный</span>
+                    <a href="#" class="callback">Заказать звонок</a>
+                </div>
+                <!-- /.col-md-3 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.cotainer -->
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">Эксклюзивные цветы и букеты <br> flowers Shop</h1>
+            <p class="hero-description">первая в россии эксклюзивная доставка цветов для людей, которые ценят <b>уникальность</b></p>
+            <!-- Slider с цветами -->
+            <div class="swiper-container flowers-slider">
+                <!-- обертка слайдов -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="img/flower-1.png" alt="" class="slide-image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/flower-2.png" alt="" class="slide-image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/flower-3.png" alt="" class="slide-image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/flower-4.png" alt="" class="slide-image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/flower-5.png" alt="" class="slide-image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/flower-6.png" alt="" class="slide-image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/flower-3.png" alt="" class="slide-image">
+                    </div>
+                </div>
+                <!-- стрелки слайдера -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <!--./swiper-container  -->
+            <span class="hero-cta">Закажите эксклюзивный букет со скидкой 10%</span>
+            <a href="# " class="button">Заказать букет</a>
+        </div>
+        <!-- /.container -->
+    </section>
 
+    <section class="reviews">
+        <div class="conteiner">
+            <h2 class="section-titile">Мы делаем лучшие букеты</h2>
+
+            <!-- слайдер с отступами -->
+            <div class="swiper-container reviews-slider">
+                <!-- Aоберткаr -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="review-image">
+                            <span class="review-name"></span>
+                            <span class="review-city"></span>
+                        </div>
+
+                    </div>
+                    <!-- заканчиваеться слайд -->
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <!--./swiper-container  -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/javascript.js"></script>
 </body>
 
 </html>
